@@ -14,7 +14,7 @@ public final class RemoteFeedLoader {
         self.url = url
     }
    public func load(){
-        client.get(from: URL(string: "jkjkh.dafds.dssd")!)
+        client.get(from: url)
        
     }
 }
